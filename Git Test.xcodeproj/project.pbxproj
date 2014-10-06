@@ -14,6 +14,7 @@
 		8494FD5E19E2F67C00287559 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8494FD5D19E2F67C00287559 /* Images.xcassets */; };
 		8494FD6119E2F67C00287559 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8494FD5F19E2F67C00287559 /* LaunchScreen.xib */; };
 		8494FD6D19E2F67C00287559 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494FD6C19E2F67C00287559 /* Git_TestTests.m */; };
+		8494FD7819E2FCB300287559 /* DBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494FD7719E2FCB300287559 /* DBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8494FD6619E2F67C00287559 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8494FD6B19E2F67C00287559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8494FD6C19E2F67C00287559 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		8494FD7619E2FCB300287559 /* DBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTest.h; sourceTree = "<group>"; };
+		8494FD7719E2FCB300287559 /* DBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				8494FD5D19E2F67C00287559 /* Images.xcassets */,
 				8494FD5F19E2F67C00287559 /* LaunchScreen.xib */,
 				8494FD5019E2F67C00287559 /* Supporting Files */,
+				8494FD7619E2FCB300287559 /* DBTest.h */,
+				8494FD7719E2FCB300287559 /* DBTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8494FD5919E2F67C00287559 /* ViewController.m in Sources */,
+				8494FD7819E2FCB300287559 /* DBTest.m in Sources */,
 				8494FD5619E2F67C00287559 /* AppDelegate.m in Sources */,
 				8494FD5319E2F67C00287559 /* main.m in Sources */,
 			);
